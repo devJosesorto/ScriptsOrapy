@@ -26,3 +26,15 @@ app.layout = html.Div([
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+
+
+
+
+
+filas_array = []
+
+for indice, fila in df.iterrows():
+    filas_array.append(fila.values)
+
+# Ahora filas_array contiene todas las filas del DataFrame como arrays
