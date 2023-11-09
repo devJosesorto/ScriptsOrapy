@@ -38,3 +38,10 @@ for indice, fila in df.iterrows():
     filas_array.append(fila.values)
 
 # Ahora filas_array contiene todas las filas del DataFrame como arrays
+
+
+Usando at para acceder por etiquetas
+valor = df.at[1, 'NombreColumna']
+
+# Usando iloc para acceder por índices
+valor = df.iloc[1, 0]
